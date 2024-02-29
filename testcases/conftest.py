@@ -3,7 +3,6 @@ import time
 from lib2to3.pgen2 import driver
 
 import pytest as pytest
-import pytest_html
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
@@ -50,7 +49,7 @@ def url(request):
 #             file_name = str(int(round(time.time() * 1000))) + ".png"
 #             # file_name = report.nodeid.replace("::", "_") + ".png"
 #             destinationFile = os.path.join(report_directory, file_name)
-#             driver.save_screenshot(destinationFile)
+#             driver.save_scre`enshot(destinationFile)
 #             if file_name:
 #                 html = '<div><img src="%s" alt="screenshot" style="width:300px;height=200px" ' \
 #                        'onclick="window.open(this.src)" align="right"/></div>'%file_name
