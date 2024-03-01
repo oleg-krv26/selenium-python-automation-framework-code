@@ -33,4 +33,4 @@ class BaseDriver:
         wait = WebDriverWait(self.driver, 10)
         invisible_element = wait.until(EC.invisibility_of_element_located((locator_type, locator)))
 
-# Some lines fron SDET1
+# Some lines from SDET1
